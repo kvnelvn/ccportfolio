@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kevin Ho | Critical Computation Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Kevin Ho</h1>
+      <ul>
+        <li><a href="p1.html">Lost and Found</a></li>
+        <li><a href="p2.html">Psychosocial</a></li>
+        <li><a href="p3.html">The Eye of Agamotto</a></li>
+        <li><a href="p4.html">The Lovecraftian Three</a></li>
+        <li><a href="p5.html">Mid-Century Modern</a></li>
+        <li><a href="p6.html">Time Goes By...So Slowly</a></li>
+        <li><a href="p7.html">Playable Demo</a></li>
+        <li><a href="p8.html">Predator Cam</a></li>
+        <li><a href="p9.html">Predator FRIES</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>
+        Predator FRIES
+      </h1>
+
+      <div class="fullwidth">
+        <iframe
+          allow="camera"
+          width="640px"
+          height="523px"
+          src="https://editor.p5js.org/kvnelvn/full/pucBp_A6e"
+        ></iframe>
+      </div>
+
+      <h2>
+        A Consentful Interface
+      </h2>
+      <p>
+        "Follow the F.R.I.E.S., and you will get a consentful interface." And so
+        I did. That's the entire premise of this interface. Let's take a look.
+      </p>
+
+      <p>
+        (F)reely given: I designed the interace to be without pressure, force,
+        or manipulation. What it is is what it is. There's no hidden layer,
+        double-crossing of the user, or gaslighting. I clearly state the
+        intention of why the camera's used and that everything stays with the
+        user. It gives power to whoever is using it.
+      </p>
+
+      <p>
+        (R)eversible: it is always a priority that I have the option to opt out
+        of using the camera. It's not enough to simply have it; the option needs
+        to be easily accessible. I give a clear prompt that the user can opt out
+        using a button, and I made that button easy to see and access. No
+        digging through pages and pages of settings.
+      </p>
+
+      <p>
+        (I)nformed: the interface informs the user what their camera is going to
+        be used for. It also gives the user a privacy statement, letting them
+        know that nothing is being recorded and saved. Straight to the point and
+        simple. But effective.
+      </p>
+
+      <p>
+        (E)nthusiastic: there's nothing in the interface that forces the user to
+        give their camera access for the sake of using the Predator Cam. In
+        fact, there's also no pressure for them to return if they opt out. The
+        language is purposefully neutral versus overly excitable or
+        manipulative. It's meant to let the user decide on their own.
+      </p>
+
+      <p>
+        (S)pecific: specificity is another important aspect of this interface.
+        Like I mentioned, I made it specific, clear, and straight-to-the-point
+        when it came to the camera's purpose. There isn't any hidden meanings or
+        layers behind it.
+      </p>
+
+      <h2>
+        Well? Tell me! How'd You Do It?
+      </h2>
+
+      <p>
+        Great question. I started with switch statements - they set the
+        foundation of what the interface would look like, both on the front and
+        back end. Once I knew how many scenes I needed to have, I began to work
+        on the visuals. This was a fun assignment because I got to learn CSS
+        code as well. With the DOMs and buttons, I customized these visual
+        elements through style.css rather than through p5js. This gave me more
+        freedom to assign different looks to different buttons without taking up
+        too much space.
+      </p>
+
+      <p>
+        The buttons were customized with CSS through style.css. There, I coded
+        its characteristics, such as padding, background color, font, and even
+        gave it hover and shadow interactions. I took some inspiration from
+        Google's material design in order to incorporate a more "friendly" look
+        and feel to it. Some UI fun, I guess?
+      </p>
+
+      <p>
+        Finally, I put everything together in the scenes. Everything came from
+        user-defined functions, and was called in the draw function in the
+        switch scenes. The overall interface has a clean and friendly aesthetic,
+        just to give off a less intimidating vibe to go along with the concept
+        of consentual design. I will say, I tried my damn hardest to write out
+        code that turns off or hides the camera (especially that damn LED) when
+        the camera's not being used, but could not figure it out. Well,
+        something for the next iteration.
+      </p>
+
+      <p>
+        Here's that code you asked for:
+        https://editor.p5js.org/kvnelvn/sketches/pucBp_A6e
+      </p>
+
+      <h2>
+        Reflect! Reflect!
+      </h2>
+
+      <p>
+        The F.R.I.E.S. model is very important to follow, especially when you're
+        designing something that other people will be using. I've started to
+        really think about what makes design consentful; but moreso than that,
+        what makes it equitable. A million-page Terms and Conditions in 1px font
+        that's incredibly difficult to find isn't consentful; sure you "give
+        permission", but it's more than just that. This assignment really helped
+        me to think through that lens. Cool shit.
+      </p>
+    </div>
+  </body>
+</html>
