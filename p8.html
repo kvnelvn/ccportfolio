@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kevin Ho | Critical Computation Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Kevin Ho</h1>
+      <ul>
+        <li><a href="p1.html">Lost and Found</a></li>
+        <li><a href="p2.html">Psychosocial</a></li>
+        <li><a href="p3.html">The Eye of Agamotto</a></li>
+        <li><a href="p4.html">The Lovecraftian Three</a></li>
+        <li><a href="p5.html">Mid-Century Modern</a></li>
+        <li><a href="p6.html">Time Goes By...So Slowly</a></li>
+        <li><a href="p7.html">Playable Demo</a></li>
+        <li><a href="p8.html">Predator Cam</a></li>
+        <li><a href="p9.html">Predator FRIES</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>
+        Predator Cam
+      </h1>
+
+      <div class="fullwdith">
+        <iframe
+          allow="camera"
+          width="640px"
+          height="523px"
+          src="https://editor.p5js.org/kvnelvn/full/yTAAS1udO"
+        ></iframe>
+      </div>
+
+      <p>
+        The experiemental camera that keeps on giving.
+      </p>
+
+      <h1>
+        The "Infrared" Camera
+      </h1>
+
+      <p>
+        No, it's not really infrared. But I knew I wanted to, visually, mimic
+        the way infrared cameras capture their subjects. Cameras can capture
+        many different subjects through many different forms. For me, I was
+        inspired by infrared/thermal lenses, specifically from the film
+        "Predator." I was watching how the Predator uses the infrared/thermal
+        vision to hunt its prey using their heat signatures to identify them.
+        What if infrared cameras were used in a surveillance context, or
+        interrogation context, or some other CSI context? An infrared camera can
+        spot heat signatures, and therefore identify things that a regular
+        camera wouldn't have seen otherwise. Is there an inherently "good" or
+        "bad" use of this type of camera? To me, that's the meaning I'm trying
+        to impart through this assignment and experimental camera. Even though
+        it's not actually a themral camera, it's still interesting to see it in
+        this context.
+      </p>
+
+      <h1>
+        How it's made:
+      </h1>
+
+      <p>
+        First of all, big shoutout to Sean for helping me through this
+        assignment. I was quite lost, but Sean's fantastic guidance helped me
+        get to where I am with this experimental camera. King.
+      </p>
+
+      <p>
+        Once I understood the context of "capture" and arrays, using the pixels,
+        I knew I had to separate out the RGB pixels in order to then assign a
+        shape and fill to each one. Using if/else statements, I did just that. I
+        separated the values (0, 255) and assigned a specific if statement to
+        them. For example, if any of the RGB pixels were less than 50 in value,
+        then it would generate a specific fill color and shape. I did this on
+        three separate if/else statements to generate an infrared look.
+      </p>
+
+      <div class="fullwdith">
+        <img
+        src=https://cdn.glitch.me/7fdd7b1f-4fc3-4de1-8d00-262541ed753c%2FScreen%20Shot%202021-11-16%20at%2012.16.27%20PM.png?v=1637083064522
+        />
+      </div>
+
+      <div class="fullwdith">
+        <img
+        src=https://cdn.glitch.me/7fdd7b1f-4fc3-4de1-8d00-262541ed753c%2FScreen%20Shot%202021-11-16%20at%2012.05.03%20PM.png?v=1637083059799
+        />
+      </div>
+
+      <div class="fullwidth">
+        <p>
+          Instead of running my for loops under x & y++, I did a step count of
+          10 so that I could render the camera capture easier. Additionally, it
+          made it possibile to code different shapes for the if/else statements.
+          I did square, circle, and triangles for each of the if/else statements
+          so that there was a variety within the canvas. I also wanted to give
+          the camera a feeling that it's "alive" so I made some of the colors
+          and shape sizes random(), so that it would fluctutate and almost feel
+          like it's "breathing" - something to mimic and reflect the nature of
+          heat signatures and body movements.
+        </p>
+
+        <p>
+          Look here, it's the code:
+          https://editor.p5js.org/kvnelvn/sketches/yTAAS1udO
+        </p>
+
+        <h1>
+          As I reflect...
+        </h1>
+
+        <p>
+          I think about the access that our cameras have to, well everything.
+          The very computer I did this assignment on was on and running the
+          entire time; my iPhone's camera is used to unlock the phone; where I
+          work has security cameras posted up on walls and ceilings. It's
+          interesting to think about the reliance, but also the rejection, of
+          camera technology that's increasingly embedded in our lives. I'm
+          neither 100% for or against this. Sometimes I love cameras - I love
+          being able to capture selfies with my friends, or to try out fun
+          unique filters done by creative coders. But I also dislike that
+          there's always the possibility that someone could access my camera and
+          watch me, without my knowledge of it. So who knows? I certainly don't.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
