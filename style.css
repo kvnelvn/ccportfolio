@@ -10,14 +10,14 @@ body {
 h1 {
   font-family: "Roboto-Bold";
   color: #551a8b;
-  font-size: 18pt;
+  font-size: 20pt;
 }
 .special-h2 {
   margin-top: 0;
 }
 h2 {
   font-family: "Roboto-Medium";
-  font-size: 14pt;
+  font-size: 16pt;
   color: #7851a9;
   /*   margin-top:0; */
 }
